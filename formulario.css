@@ -1,0 +1,140 @@
+
+.bufalo {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+ 
+}
+
+.bufalo-contact100 {
+  width: ;  
+
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+  background: ;
+  
+}
+
+.wrap-contact100 {
+  
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 62px 55px 90px 55px;
+}
+
+/* Hide the browser's default radio button */
+.bufalo input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #B5BDBC;
+  border-radius: 50%;
+ 
+}
+
+/* On mouse-over, add a grey background color */
+.bufalo:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a #00ad5f background */
+.bufalo input:checked ~ .checkmark {
+  background-color: #00ad5f;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.bufalo input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.bufalo .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.form-title {
+  display: block;
+  width: 100%;
+  font-family: ;
+  font-size: 39px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 59px;
+}
+
+
+.bufalo-contact100-form-btn {
+
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.contact100-form-btn {
+
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 35%;
+  height: 50px;
+  background-color: #333333;
+  border-radius: 25px;
+
+  font-family: Montserrat-Medium;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+
+}
+
+.contact100-form-btn:hover {
+  background-color: #00ad5f;
+}
+
+
+.sample-text{
+  text-align: justify;
+}
+
+.excert{
+  text-align: justify;
+}
+
+
+
+
+
+
+
